@@ -22,7 +22,7 @@ function  showSlides(n) {
 
     slides.forEach((item) => item.style.display = 'none');
     // for (let i = 0; i < slides.length; i++) { то же самое
-    //     slides[i].sty;e.display = 'none';
+    //     slides[i].style.display = 'none';
     // }
     dots.forEach((item) => item.classList.remove('dot-active'));
 
